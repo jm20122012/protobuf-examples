@@ -1,0 +1,15 @@
+syntax = "proto3";
+package main;
+
+option go_package = "main.go";
+
+message SensorUpdateDto {
+    string label = 1;
+    string tempF = 2;
+    string tempC = 3;
+    string highF = 4;
+    string highC = 5;
+    string lowF = 6;
+    string lowC = 7;
+    string time = 8;
+}
